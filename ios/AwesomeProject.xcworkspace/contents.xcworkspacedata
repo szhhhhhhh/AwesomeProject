@@ -1,9 +1,1758 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <FileRef
-      location = "group:AwesomeProject.xcodeproj">
-   </FileRef>
+   <Group
+      location = "group:"
+      name = "">
+      <FileRef
+         location = "group:AwesomeProject.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:AwesomeProjectTests"
+         name = "AwesomeProjectTests">
+         <FileRef
+            location = "group:AwesomeProjectTests.m">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Pods"
+         name = "Pods">
+         <Group
+            location = "group:DoubleConversion"
+            name = "DoubleConversion">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:README">
+            </FileRef>
+            <Group
+               location = "group:double-conversion"
+               name = "double-conversion">
+               <FileRef
+                  location = "group:utils.h">
+               </FileRef>
+               <FileRef
+                  location = "group:bignum.cc">
+               </FileRef>
+               <FileRef
+                  location = "group:fixed-dtoa.h">
+               </FileRef>
+               <FileRef
+                  location = "group:bignum-dtoa.h">
+               </FileRef>
+               <FileRef
+                  location = "group:fixed-dtoa.cc">
+               </FileRef>
+               <FileRef
+                  location = "group:strtod.h">
+               </FileRef>
+               <FileRef
+                  location = "group:diy-fp.h">
+               </FileRef>
+               <FileRef
+                  location = "group:strtod.cc">
+               </FileRef>
+               <FileRef
+                  location = "group:cached-powers.h">
+               </FileRef>
+               <FileRef
+                  location = "group:double-conversion.h">
+               </FileRef>
+               <FileRef
+                  location = "group:fast-dtoa.cc">
+               </FileRef>
+               <FileRef
+                  location = "group:cached-powers.cc">
+               </FileRef>
+               <FileRef
+                  location = "group:double-conversion.cc">
+               </FileRef>
+               <FileRef
+                  location = "group:diy-fp.cc">
+               </FileRef>
+               <FileRef
+                  location = "group:ieee.h">
+               </FileRef>
+               <FileRef
+                  location = "group:bignum.h">
+               </FileRef>
+               <FileRef
+                  location = "group:fast-dtoa.h">
+               </FileRef>
+               <FileRef
+                  location = "group:bignum-dtoa.cc">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:RCT-Folly"
+            name = "RCT-Folly">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <Group
+               location = "group:folly"
+               name = "folly">
+               <FileRef
+                  location = "group:Random-inl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Demangle.cpp">
+               </FileRef>
+               <FileRef
+                  location = "group:ExceptionString.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MaybeManagedPtr.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Varint.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Format-inl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:DefaultKeepAliveExecutor.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SpinLock.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstructorCallbackList.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UTF8String.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MapUtil.h">
+               </FileRef>
+               <FileRef
+                  location = "group:VirtualExecutor.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Synchronized.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ConcurrentSkipList.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MicroLock.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ExceptionWrapper.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ObserverContainer.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Range.h">
+               </FileRef>
+               <FileRef
+                  location = "group:DynamicConverter.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Traits.h">
+               </FileRef>
+               <FileRef
+                  location = "group:IntrusiveList.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CppAttributes.h">
+               </FileRef>
+               <Group
+                  location = "group:net"
+                  name = "net">
+                  <FileRef
+                     location = "group:NetworkSocket.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NetOps.cpp">
+                  </FileRef>
+                  <Group
+                     location = "group:detail"
+                     name = "detail">
+                     <FileRef
+                        location = "group:SocketFileDescriptorMap.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:TcpInfo.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NetOpsDispatcher.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TcpInfoDispatcher.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TcpInfoTypes.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NetOps.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:SocketAddress.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ScopeGuard.cpp">
+               </FileRef>
+               <FileRef
+                  location = "group:SharedMutex.cpp">
+               </FileRef>
+               <Group
+                  location = "group:memory"
+                  name = "memory">
+                  <FileRef
+                     location = "group:Malloc.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ThreadCachedArena.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SanitizeLeak.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:EnableSharedFromThis.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ReentrantAllocator.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MallctlHelper.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MemoryResource.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SanitizeAddress.h">
+                  </FileRef>
+                  <Group
+                     location = "group:detail"
+                     name = "detail">
+                     <FileRef
+                        location = "group:MallocImpl.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MallocImpl.cpp">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:Arena-inl.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:not_null-inl.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Arena.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UninitializedMemoryHacks.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:not_null.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Format.cpp">
+               </FileRef>
+               <FileRef
+                  location = "group:IPAddress.h">
+               </FileRef>
+               <FileRef
+                  location = "group:base64.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Demangle.h">
+               </FileRef>
+               <Group
+                  location = "group:synchronization"
+                  name = "synchronization">
+                  <FileRef
+                     location = "group:HazptrObj.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:HazptrObjLinked.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SanitizeThread.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DistributedMutex.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ParkingLot.cpp">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CallOnce.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RelaxedAtomic.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AtomicStruct.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Baton.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:HazptrHolder.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:HazptrThrLocal.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RWSpinLock.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Hazptr-fwd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Lock.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:HazptrRec.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:LifoSem.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:HazptrThreadPoolExecutor.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AtomicUtil.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AtomicRef.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MicroSpinLock.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DelayedInit.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AsymmetricThreadFence.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NativeSemaphore.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SmallLocks.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Hazptr.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:HazptrDomain.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AtomicNotification.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ThrottledLifoSem.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AtomicUtil-inl.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AtomicNotification-inl.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PicoSpinLock.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DistributedMutex-inl.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Latch.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ParkingLot.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SanitizeThread.cpp">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Utility.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:WaitOptions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Rcu.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SaturatingSemaphore.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:GLog.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ThreadCachedInt.h">
+               </FileRef>
+               <Group
+                  location = "group:chrono"
+                  name = "chrono">
+               </Group>
+               <FileRef
+                  location = "group:AtomicIntrusiveLinkedList.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ScopeGuard.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CpuId.h">
+               </FileRef>
+               <Group
+                  location = "group:hash"
+                  name = "hash">
+                  <FileRef
+                     location = "group:SpookyHashV1.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SpookyHashV2.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FarmHash.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SpookyHashV2.cpp">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Hash.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Checksum.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:ProducerConsumerQueue.h">
+               </FileRef>
+               <FileRef
+                  location = "group:small_vector.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Singleton.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Chrono.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Uri.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RWSpinLock.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Replaceable.h">
+               </FileRef>
+               <FileRef
+                  location = "group:sorted_vector_types.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CancellationToken.h">
+               </FileRef>
+               <FileRef
+                  location = "group:dynamic-inl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MacAddress.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FileUtil.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ThreadLocal.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Singleton-inl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Overload.h">
+               </FileRef>
+               <FileRef
+                  location = "group:File.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ConcurrentLazy.h">
+               </FileRef>
+               <FileRef
+                  location = "group:IPAddressException.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ConcurrentSkipList-inl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FollyMemset.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ExceptionWrapper-inl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FormatArg.h">
+               </FileRef>
+               <FileRef
+                  location = "group:PackedSyncPtr.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Unit.h">
+               </FileRef>
+               <FileRef
+                  location = "group:dynamic.h">
+               </FileRef>
+               <FileRef
+                  location = "group:String.cpp">
+               </FileRef>
+               <FileRef
+                  location = "group:IPAddressV4.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MPMCPipeline.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstexprMath.h">
+               </FileRef>
+               <FileRef
+                  location = "group:stop_watch.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Try-inl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:TokenBucket.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MicroSpinLock.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SingletonThreadLocal.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Optional.h">
+               </FileRef>
+               <FileRef
+                  location = "group:json_patch.h">
+               </FileRef>
+               <FileRef
+                  location = "group:dynamic.cpp">
+               </FileRef>
+               <FileRef
+                  location = "group:json_pointer.h">
+               </FileRef>
+               <FileRef
+                  location = "group:PolyException.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FBVector.h">
+               </FileRef>
+               <FileRef
+                  location = "group:CPortability.h">
+               </FileRef>
+               <Group
+                  location = "group:lang"
+                  name = "lang">
+                  <FileRef
+                     location = "group:Pretty.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SafeAssert.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Align.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CString.cpp">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UncaughtExceptions.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Builtin.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Exception.cpp">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PropagateConst.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Hint.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Badge.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CArray.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Assume.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Keep.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:New.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CustomizationPoint.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CheckedMath.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RValueReferenceWrapper.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CString.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Ordering.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Launder.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ToAscii.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Cast.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Access.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Hint-inl.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SafeAssert.cpp">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Thunk.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Extern.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ToAscii.cpp">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Exception.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:StaticConst.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Byte.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Aligned.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TypeInfo.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Bits.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Unicode.h">
+               </FileRef>
+               <FileRef
+                  location = "group:DiscriminatedPtr.h">
+               </FileRef>
+               <Group
+                  location = "group:container"
+                  name = "container">
+                  <FileRef
+                     location = "group:F14Map.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:IntrusiveHeap.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Enumerate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:EvictingCacheMap.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:WeightedEvictingCacheMap.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SparseByteSet.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Merge.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:BitIterator.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:View.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:F14Set-fwd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:HeterogeneousAccess.h">
+                  </FileRef>
+                  <Group
+                     location = "group:detail"
+                     name = "detail">
+                     <FileRef
+                        location = "group:F14Table.cpp">
+                     </FileRef>
+                     <FileRef
+                        location = "group:BitIteratorDetail.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:F14SetFallback.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:F14IntrinsicsAvailability.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:F14Defaults.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:F14MapFallback.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:F14Table.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Util.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:F14Mask.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:F14Policy.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:Access.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:F14Map-fwd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Foreach.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Array.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:heap_vector_types.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:HeterogeneousAccess-fwd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:F14Set.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Iterator.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Foreach-inl.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:concurrency"
+                  name = "concurrency">
+                  <FileRef
+                     location = "group:CacheLocality.cpp">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CacheLocality.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:system"
+                  name = "system">
+                  <FileRef
+                     location = "group:Shell.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ThreadName.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AtFork.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AtFork.cpp">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MemoryMapping.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:HardwareConcurrency.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ThreadId.cpp">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pid.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ThreadId.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Padded.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FollyMemcpy.h">
+               </FileRef>
+               <Group
+                  location = "group:detail"
+                  name = "detail">
+                  <FileRef
+                     location = "group:SplitStringSimdImpl.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AsyncTrace.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FingerprintPolynomial.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:IPAddressSource.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SimpleSimdStringUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FileUtilDetail.cpp">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FileUtilVectorDetail.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:IPAddress.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SocketFastOpen.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RangeCommon.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AtomicUnorderedMapUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FileUtilDetail.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Singleton.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Futex.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AtomicHashUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TurnSequencer.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UnrollUtils.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Futex.cpp">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SimdAnyOf.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DiscriminatedPtrDetail.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MemoryIdler.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GroupVarintDetail.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SimdCharPlatform.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PerfScoped.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UniqueInstance.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SlowFingerprint.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TypeList.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SimpleSimdStringUtilsImpl.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RangeSse42.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Futex-inl.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Sse.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SimdForEach.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ThreadLocalDetail.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SplitStringSimd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Iterators.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:StaticSingletonManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SplitStringSimd.cpp">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MPMCPipelineDetail.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PolyDetail.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UniqueInstance.cpp">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Portability.h">
+               </FileRef>
+               <FileRef
+                  location = "group:IndexedMemPool.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Likely.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Executor.h">
+               </FileRef>
+               <FileRef
+                  location = "group:json.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Expected.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AtomicLinkedList.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ClockGettimeWrappers.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FBString.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AtomicHashArray-inl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Conv.cpp">
+               </FileRef>
+               <FileRef
+                  location = "group:Lazy.h">
+               </FileRef>
+               <FileRef
+                  location = "group:String-inl.h">
+               </FileRef>
+               <Group
+                  location = "group:portability"
+                  name = "portability">
+                  <FileRef
+                     location = "group:Time.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Filesystem.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SysSyscall.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Stdlib.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Malloc.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SysMembarrier.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Config.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Event.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SysResource.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Unistd.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:OpenSSL.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Fcntl.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SysTypes.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Dirent.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:IOVec.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Syslog.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Libunwind.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Malloc.cpp">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Libgen.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Asm.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Windows.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FmtCompile.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Builtins.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SysTime.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Sockets.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Sched.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PThread.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Math.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Memory.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SysFile.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SourceLocation.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Stdio.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GTest.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GFlags.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SysStat.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SysUio.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Constexpr.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GMock.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SysMman.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:String.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Atomic.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SysUio.cpp">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:json_pointer.cpp">
+               </FileRef>
+               <FileRef
+                  location = "group:Indestructible.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Math.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Memory.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Poly.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ConcurrentBitSet.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MoveWrapper.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Uri-inl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:TimeoutQueue.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FormatTraits.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Benchmark.h">
+               </FileRef>
+               <FileRef
+                  location = "group:GroupVarint.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AtomicHashMap.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FileUtil.cpp">
+               </FileRef>
+               <FileRef
+                  location = "group:CancellationToken-inl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SharedMutex.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Format.h">
+               </FileRef>
+               <FileRef
+                  location = "group:BenchmarkUtil.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Utility.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MPMCQueue.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Poly-inl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Exception.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AtomicHashMap-inl.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FixedString.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Subprocess.h">
+               </FileRef>
+               <FileRef
+                  location = "group:IPAddressV6.h">
+               </FileRef>
+               <FileRef
+                  location = "group:json.cpp">
+               </FileRef>
+               <FileRef
+                  location = "group:Fingerprint.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AtomicUnorderedMap.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Try.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Conv.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Hash.h">
+               </FileRef>
+               <Group
+                  location = "group:functional"
+                  name = "functional">
+                  <FileRef
+                     location = "group:protocol.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ApplyTuple.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:traits.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Partial.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Invoke.h">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Function.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Unicode.cpp">
+               </FileRef>
+               <FileRef
+                  location = "group:Random.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Bits.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AtomicHashArray.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SynchronizedPtr.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Preprocessor.h">
+               </FileRef>
+               <Group
+                  location = "group:poly"
+                  name = "poly">
+               </Group>
+               <FileRef
+                  location = "group:String.h">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Target Support Files"
+            name = "Target Support Files">
+         </Group>
+         <Group
+            location = "group:hermes-engine-artifacts"
+            name = "hermes-engine-artifacts">
+            <FileRef
+               location = "group:hermes-ios-0.74.4-release.tar.gz">
+            </FileRef>
+            <FileRef
+               location = "group:hermes-ios-0.74.4-debug.tar.gz">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Local Podspecs"
+            name = "Local Podspecs">
+            <FileRef
+               location = "group:React-RuntimeHermes.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-jserrorhandler.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-Codegen.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-RCTText.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-utils.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:FBLazyVector.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-RCTSettings.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:glog.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-Fabric.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:boost.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-RuntimeCore.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-jsiexecutor.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-debug.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:RCTTypeSafety.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:RCTRequired.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:react-native-webview.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-RuntimeApple.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-RCTAnimation.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:hermes-engine.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-rncore.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-nativeconfig.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-Mapbuffer.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-jsi.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:Yoga.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-RCTActionSheet.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-cxxreact.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-NativeModulesApple.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-featureflags.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:ReactCommon.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:fmt.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-runtimescheduler.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-FabricImage.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-RCTNetwork.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:RCTDeprecation.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:DoubleConversion.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-rendererdebug.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-runtimeexecutor.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-RCTLinking.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-hermes.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:RCT-Folly.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-CoreModules.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-jsinspector.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-callinvoker.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-RCTAppDelegate.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-graphics.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-RCTImage.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-RCTVibration.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-RCTFabric.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-perflogger.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-RCTBlob.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-Core.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-jsitracing.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-logger.podspec.json">
+            </FileRef>
+            <FileRef
+               location = "group:React-ImageManager.podspec.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:SocketRocket"
+            name = "SocketRocket">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <Group
+               location = "group:SocketRocket"
+               name = "SocketRocket">
+               <FileRef
+                  location = "group:SRWebSocket.m">
+               </FileRef>
+               <FileRef
+                  location = "group:NSRunLoop+SRWebSocket.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SRSecurityPolicy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SocketRocket.h">
+               </FileRef>
+               <Group
+                  location = "group:Internal"
+                  name = "Internal">
+                  <FileRef
+                     location = "group:SRConstants.h">
+                  </FileRef>
+                  <Group
+                     location = "group:Proxy"
+                     name = "Proxy">
+                     <FileRef
+                        location = "group:SRProxyConnect.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRProxyConnect.h">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:RunLoop"
+                     name = "RunLoop">
+                     <FileRef
+                        location = "group:SRRunLoopThread.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRRunLoopThread.m">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Security"
+                     name = "Security">
+                     <FileRef
+                        location = "group:SRPinningSecurityPolicy.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRPinningSecurityPolicy.m">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:NSRunLoop+SRWebSocketPrivate.h">
+                  </FileRef>
+                  <Group
+                     location = "group:Delegate"
+                     name = "Delegate">
+                     <FileRef
+                        location = "group:SRDelegateController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRDelegateController.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:NSURLRequest+SRWebSocketPrivate.h">
+                  </FileRef>
+                  <Group
+                     location = "group:Utilities"
+                     name = "Utilities">
+                     <FileRef
+                        location = "group:SRHash.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRLog.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRMutex.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRHTTPConnectMessage.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRSIMDHelpers.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRRandom.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRURLUtilities.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRError.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRLog.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRHash.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRMutex.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRHTTPConnectMessage.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRError.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRRandom.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRURLUtilities.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRSIMDHelpers.m">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:IOConsumer"
+                     name = "IOConsumer">
+                     <FileRef
+                        location = "group:SRIOConsumerPool.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRIOConsumer.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRIOConsumer.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SRIOConsumerPool.m">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:SRConstants.m">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:NSURLRequest+SRWebSocket.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SRWebSocket.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSRunLoop+SRWebSocket.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SRSecurityPolicy.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSURLRequest+SRWebSocket.m">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <FileRef
+               location = "group:LICENSE-examples">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Headers"
+            name = "Headers">
+         </Group>
+      </Group>
+      <Group
+         location = "group:AwesomeProject"
+         name = "AwesomeProject">
+         <FileRef
+            location = "group:LaunchScreen.storyboard">
+         </FileRef>
+         <FileRef
+            location = "group:AppDelegate.h">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:PrivacyInfo.xcprivacy">
+         </FileRef>
+         <Group
+            location = "group:Images.xcassets"
+            name = "Images.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:AppDelegate.mm">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Podfile">
+      </FileRef>
+      <Group
+         location = "group:build"
+         name = "build">
+         <Group
+            location = "group:generated"
+            name = "generated">
+            <Group
+               location = "group:ios"
+               name = "ios">
+               <FileRef
+                  location = "group:React-Codegen.podspec.json">
+               </FileRef>
+               <FileRef
+                  location = "group:RCTModulesConformingToProtocolsProvider.mm">
+               </FileRef>
+               <FileRef
+                  location = "group:RNCWebViewSpecJSI-generated.cpp">
+               </FileRef>
+               <Group
+                  location = "group:FBReactNativeSpec"
+                  name = "FBReactNativeSpec">
+                  <FileRef
+                     location = "group:FBReactNativeSpec.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBReactNativeSpec-generated.mm">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:RNCWebViewSpecJSI.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FBReactNativeSpecJSI.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FBReactNativeSpecJSI-generated.cpp">
+               </FileRef>
+               <Group
+                  location = "group:RNCWebViewSpec"
+                  name = "RNCWebViewSpec">
+                  <FileRef
+                     location = "group:RNCWebViewSpec.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RNCWebViewSpec-generated.mm">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:RCTModulesConformingToProtocolsProvider.h">
+               </FileRef>
+               <Group
+                  location = "group:react"
+                  name = "react">
+                  <Group
+                     location = "group:renderer"
+                     name = "renderer">
+                     <Group
+                        location = "group:components"
+                        name = "components">
+                        <Group
+                           location = "group:RNCWebViewSpec"
+                           name = "RNCWebViewSpec">
+                           <FileRef
+                              location = "group:ShadowNodes.cpp">
+                           </FileRef>
+                           <FileRef
+                              location = "group:Props.h">
+                           </FileRef>
+                           <FileRef
+                              location = "group:Props.cpp">
+                           </FileRef>
+                           <FileRef
+                              location = "group:ComponentDescriptors.h">
+                           </FileRef>
+                           <FileRef
+                              location = "group:ComponentDescriptors.cpp">
+                           </FileRef>
+                           <FileRef
+                              location = "group:ShadowNodes.h">
+                           </FileRef>
+                           <FileRef
+                              location = "group:EventEmitters.h">
+                           </FileRef>
+                           <FileRef
+                              location = "group:States.h">
+                           </FileRef>
+                           <FileRef
+                              location = "group:EventEmitters.cpp">
+                           </FileRef>
+                           <FileRef
+                              location = "group:States.cpp">
+                           </FileRef>
+                           <FileRef
+                              location = "group:RCTComponentViewHelpers.h">
+                           </FileRef>
+                        </Group>
+                     </Group>
+                  </Group>
+               </Group>
+            </Group>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:AwesomeProject.xcworkspace">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>

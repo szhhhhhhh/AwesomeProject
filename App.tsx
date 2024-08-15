@@ -6,40 +6,29 @@
  */
 
 import React from 'react';
-import {View, useColorScheme, StyleSheet, Text} from 'react-native';
+import {View, StyleSheet, Text, SafeAreaView} from 'react-native';
 import WebView from 'react-native-webview';
 
-import {Colors} from 'react-native/Libraries/NewAppScreen';
-
 function App(): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
   return (
-    <View style={backgroundStyle}>
-      <Text>1234691</Text>
-      <WebView
-        source={{
-          uri: 'https://shetuan.zjer.cn/micro/app/internetSchool/home',
-        }}
-        style={{
-          height: 300,
-          marginTop: 20,
-        }}
-      />
-      <Text>12346</Text>
-    </View>
+    <SafeAreaView style={styles.container}>
+      <View style={styles.webview}>
+        <WebView
+          source={{
+            uri: 'https://shetuan.zjer.cn/micro/app/internetSchool/home',
+          }}
+        />
+      </View>
+    </SafeAreaView>
   );
 }
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    // backgroundColor: 'red',
   },
   webview: {
-    height: 300,
+    flex: 1,
   },
 });
 
